@@ -49,8 +49,7 @@ public class Formatter {
 	}
 
 	private void writeAndCount(ArrayList<String> list) {
-		// A list of all of the numbers without doublets, so all numbers
-		//only occurs only once:
+		// A list of all of the numbers without doublets, so all numbers occur only once:
 		ArrayList<String> numberList = new ArrayList<>();
 		//The amounts of the numbers:
 		ArrayList<Integer> countList = new ArrayList<>();
